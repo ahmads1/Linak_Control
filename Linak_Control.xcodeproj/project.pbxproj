@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7FCE79BF19E52FE00067DEBD /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FCE79BE19E52FE00067DEBD /* CoreBluetooth.framework */; };
+		7FCE79C119E55FC10067DEBD /* deviceSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCE79C019E55FC10067DEBD /* deviceSelector.m */; };
 		7FE9153219E2CD68002F5ECF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE9153119E2CD68002F5ECF /* main.m */; };
 		7FE9153519E2CD68002F5ECF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE9153419E2CD68002F5ECF /* AppDelegate.m */; };
 		7FE9153819E2CD68002F5ECF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE9153719E2CD68002F5ECF /* ViewController.m */; };
@@ -38,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		7FCE79BE19E52FE00067DEBD /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		7FCE79C019E55FC10067DEBD /* deviceSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = deviceSelector.m; path = "../../../../../../Applications/SensorTag iOS SourceCode/Sensor Example Source Code 1.1.0/SensorTagEX/deviceSelector.m"; sourceTree = "<group>"; };
+		7FCE79C219E55FE80067DEBD /* deviceSelector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = deviceSelector.h; path = "../../../../../../Applications/SensorTag iOS SourceCode/Sensor Example Source Code 1.1.0/SensorTagEX/deviceSelector.h"; sourceTree = "<group>"; };
 		7FE9152C19E2CD68002F5ECF /* Linak_Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Linak_Control.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FE9153019E2CD68002F5ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FE9153119E2CD68002F5ECF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 		7FE9152E19E2CD68002F5ECF /* Linak_Control */ = {
 			isa = PBXGroup;
 			children = (
+				7FCE79C219E55FE80067DEBD /* deviceSelector.h */,
+				7FCE79C019E55FC10067DEBD /* deviceSelector.m */,
 				7FE9153319E2CD68002F5ECF /* AppDelegate.h */,
 				7FE9153419E2CD68002F5ECF /* AppDelegate.m */,
 				7FE9153619E2CD68002F5ECF /* ViewController.h */,
@@ -259,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FCE79C119E55FC10067DEBD /* deviceSelector.m in Sources */,
 				7FE9153819E2CD68002F5ECF /* ViewController.m in Sources */,
 				7FE9153519E2CD68002F5ECF /* AppDelegate.m in Sources */,
 				7FE9153219E2CD68002F5ECF /* main.m in Sources */,
