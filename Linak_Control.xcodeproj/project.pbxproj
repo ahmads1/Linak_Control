@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FCE79BF19E52FE00067DEBD /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FCE79BE19E52FE00067DEBD /* CoreBluetooth.framework */; };
 		7FE9153219E2CD68002F5ECF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE9153119E2CD68002F5ECF /* main.m */; };
 		7FE9153519E2CD68002F5ECF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE9153419E2CD68002F5ECF /* AppDelegate.m */; };
 		7FE9153819E2CD68002F5ECF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE9153719E2CD68002F5ECF /* ViewController.m */; };
@@ -21,6 +22,8 @@
 		7FE9156019E2CD87002F5ECF /* linak180x235.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FE9155919E2CD87002F5ECF /* linak180x235.png */; };
 		7FE9156119E2CD87002F5ECF /* pfeil_unten.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FE9155A19E2CD87002F5ECF /* pfeil_unten.png */; };
 		7FE9156219E2CD87002F5ECF /* pfeil-oben.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FE9155B19E2CD87002F5ECF /* pfeil-oben.png */; };
+		7FE9156519E2E785002F5ECF /* hover_pfeil_oben.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FE9156319E2E785002F5ECF /* hover_pfeil_oben.png */; };
+		7FE9156619E2E785002F5ECF /* hover_pfeil_unten.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FE9156419E2E785002F5ECF /* hover_pfeil_unten.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7FCE79BE19E52FE00067DEBD /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		7FE9152C19E2CD68002F5ECF /* Linak_Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Linak_Control.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FE9153019E2CD68002F5ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FE9153119E2CD68002F5ECF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 		7FE9155919E2CD87002F5ECF /* linak180x235.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = linak180x235.png; path = ../../../Images/linak180x235.png; sourceTree = "<group>"; };
 		7FE9155A19E2CD87002F5ECF /* pfeil_unten.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pfeil_unten.png; path = ../../../Images/pfeil_unten.png; sourceTree = "<group>"; };
 		7FE9155B19E2CD87002F5ECF /* pfeil-oben.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pfeil-oben.png"; path = "../../../Images/pfeil-oben.png"; sourceTree = "<group>"; };
+		7FE9156319E2E785002F5ECF /* hover_pfeil_oben.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hover_pfeil_oben.png; path = ../../../Images/hover_pfeil_oben.png; sourceTree = "<group>"; };
+		7FE9156419E2E785002F5ECF /* hover_pfeil_unten.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hover_pfeil_unten.png; path = ../../../Images/hover_pfeil_unten.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FCE79BF19E52FE00067DEBD /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +84,7 @@
 		7FE9152319E2CD68002F5ECF = {
 			isa = PBXGroup;
 			children = (
+				7FCE79BE19E52FE00067DEBD /* CoreBluetooth.framework */,
 				7FE9152E19E2CD68002F5ECF /* Linak_Control */,
 				7FE9154819E2CD68002F5ECF /* Linak_ControlTests */,
 				7FE9152D19E2CD68002F5ECF /* Products */,
@@ -110,6 +118,8 @@
 		7FE9152F19E2CD68002F5ECF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7FE9156319E2E785002F5ECF /* hover_pfeil_oben.png */,
+				7FE9156419E2E785002F5ECF /* hover_pfeil_unten.png */,
 				7FE9155519E2CD87002F5ECF /* linak_180x180.png */,
 				7FE9155619E2CD87002F5ECF /* linak.png */,
 				7FE9155719E2CD87002F5ECF /* linak120x120.png */,
@@ -227,6 +237,8 @@
 				7FE9155D19E2CD87002F5ECF /* linak.png in Resources */,
 				7FE9156019E2CD87002F5ECF /* linak180x235.png in Resources */,
 				7FE9155E19E2CD87002F5ECF /* linak120x120.png in Resources */,
+				7FE9156519E2E785002F5ECF /* hover_pfeil_oben.png in Resources */,
+				7FE9156619E2E785002F5ECF /* hover_pfeil_unten.png in Resources */,
 				7FE9153D19E2CD68002F5ECF /* Images.xcassets in Resources */,
 				7FE9156219E2CD87002F5ECF /* pfeil-oben.png in Resources */,
 				7FE9156119E2CD87002F5ECF /* pfeil_unten.png in Resources */,
@@ -440,6 +452,7 @@
 				7FE9155119E2CD68002F5ECF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FE9155219E2CD68002F5ECF /* Build configuration list for PBXNativeTarget "Linak_ControlTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +461,7 @@
 				7FE9155419E2CD68002F5ECF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
